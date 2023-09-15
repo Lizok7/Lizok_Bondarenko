@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    background: #fff;
+}
+.header {
+    background-image: url('bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.text-container {
+    position: absolute;
+    font-size: 35px;
+    top: 700px; 
+    left: 2000px; 
+    transform: translate(-50%, -50%);
+    color:#fff;
+    font-weight: 700;
+}
+.photo{
+    position: absolute;
+    top:200px;
+    left: 300px;
+    width: 50px;
+    height: 25px;
+}
+.telegram a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    position: absolute;
+    font-size: 35px;
+    top: 775px;
+    left: 1900px;
+    font-weight: 700;
+}
+
+.telegram a:hover {
+    color: aqua;
+}
+
+
