@@ -4,7 +4,7 @@ body {
     padding: 0;
     background: #fff url('bg.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
+    height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,6 @@ form {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center; 
-    transform: scale(1.7);
     position: relative; 
 }
 
@@ -46,7 +45,7 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 select {
-    width: 100%;
+    width: calc(100% - 15px);
     padding: 10px;
     margin: 0 auto; 
     border: none;
