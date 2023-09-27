@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій веб-сайт</title>
+    <link rel="stylesheet" href="style_lb_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="textbox">Реєстрація</h1>
+        <form>
+        <label for="first_name">Прізвище:</label>
+        <input type="text" id="first_name" name="first_name">
+        
+        <label for="last_name">Ім'я:</label>
+        <input type="text" id="last_name" name="last_name">
+        
+        <label for="email">Пошта:</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password">
+        
+        <label for="birthdate">Дата народження:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        
+        <label for="sex">Стать:</label>
+        <select id="sex" name="sex">
+            <option value="Female" selected>Жінка</option>
+            <option value="Male">Чоловік</option>
+        </select>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>

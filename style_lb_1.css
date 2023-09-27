@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    background: #fff url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(0, 132, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+    transform: scale(1.7);
+    position: relative; 
+}
+
+.textbox {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    position: absolute; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+label {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto; 
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: rgb(17, 53, 170);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: bold;
+    transition: color 0.3s linear;
+}
+
+select {
+    font-size: 16px;
+}
+
+label,
+input,
+select {
+    margin-bottom: 20px;
+}
+input[type="submit"]:hover{
+    background-color:aqua;
+}
