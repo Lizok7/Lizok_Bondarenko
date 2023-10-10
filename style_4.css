@@ -8,29 +8,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .header {
     position: relative;
     text-align: center;
 }
+
 .text-container {
     padding-top: 50px;
     color: #fff;
     font-size: 50px;
 }
+
 .urls {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-top: 450px;
     display: flex;
     flex-direction: column;
     align-items: center; 
 }
 
-.urls > div {
-    margin-bottom: 15px; 
-}
 .urls p {
+    margin-top: 10px;
     font-size: 35px;
     color: #fff;
     font-weight: 700;
@@ -46,4 +44,8 @@ body {
 .urls a:hover {
     color: aqua;
 }
+
+
+
+
 

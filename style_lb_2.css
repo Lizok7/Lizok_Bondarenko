@@ -1,0 +1,51 @@
+header nav ul li:first-child{
+    font-weight: bold;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:blue;
+}
+header nav ul li:last-child a{
+    color:aqua
+}
+input:disabled {
+    background-color: gray;
+}
+div > p {
+    font-weight: bold;
+}
+a[href^="https"] {
+    color:aquamarine;
+}
+input[type="text"]{
+    border: 1px solid blue;
+}
+li:first-child,
+li:last-child{
+    font-size: 24px;
+}
+div > p{
+    font-size: 16px;
+}
+input[type="checkbox"]:checked {
+  background-color: lightblue;
+}
+li > a{
+    text-decoration: underline;
+}
+li:nth-child(even){
+    font-weight: bold;
+}
+input[type="text"]:not([disabled]){
+    background-color: grey;
+}
+.container > p:first-child {
+    font-size: 24px;
+}
+.special + li{
+    text-decoration: line-through;
+}
+p::first-letter{
+    font-size: 36px;
+}
+  
